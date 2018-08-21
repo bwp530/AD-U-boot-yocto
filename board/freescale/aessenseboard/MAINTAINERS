@@ -1,0 +1,8 @@
+MX6SABRESD BOARD
+M:	Weiping Bi <bwp2012@163.com>
+S:	Maintained
+F:	board/freescale/aessenseboard/
+F:	include/configs/mx6aessenseboard.h
+F:	configs/mx6dlaessenseboard_defconfig
+F:	configs/mx6qaessenseboard_defconfig
+F:	configs/mx6aessenseboard_spl_defconfig
