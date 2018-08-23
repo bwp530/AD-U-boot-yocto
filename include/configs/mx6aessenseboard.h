@@ -6,8 +6,8 @@
  * SPDX-License-Identifier:	GPL-2.0+
  */
 
-#ifndef __MX6QAESSENSEBOAED_CONFIG_H
-#define __MX6QAESSENSEBOAED_CONFIG_H
+#ifndef __MX6QAESSENSEBOARD_CONFIG_H
+#define __MX6QAESSENSEBOARD_CONFIG_H
 
 #ifdef CONFIG_SPL
 #define CONFIG_SPL_LIBCOMMON_SUPPORT
@@ -96,4 +96,4 @@
 	#define CONFIG_WAVEFORM_BUF_SIZE		0x200000
 #endif /* CONFIG_SPLASH_SCREEN && CONFIG_MXC_EPDC */
 
-#endif                         /* __MX6QAESSENSEBOAED_CONFIG_H */
+#endif                         /* __MX6QAESSENSEBOARD_CONFIG_H */
