@@ -1,10 +1,10 @@
 if TARGET_MX6AESSENSEBOARD
 
 config SYS_BOARD
-	default "mx6aessenseboard"
+	default "aessenseboard"
 
 config SYS_VENDOR
-	default "aessense"
+	default "freecale"
 
 config SYS_CONFIG_NAME
 	default "mx6aessenseboard"
