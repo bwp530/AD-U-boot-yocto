@@ -6,8 +6,8 @@
  * SPDX-License-Identifier:	GPL-2.0+
  */
 
-#ifndef __MX6QSABRE_COMMON_CONFIG_H
-#define __MX6QSABRE_COMMON_CONFIG_H
+#ifndef __MX6QAESSENSEBOAED_COMMON_CONFIG_H
+#define __MX6QAESSENSEBOAED_COMMON_CONFIG_H
 
 #include "mx6_common.h"
 
@@ -222,11 +222,11 @@
 					"setenv fdt_file imx6q-sabreauto.dtb; fi; " \
 				"if test $board_name = SABREAUTO && test $board_rev = MX6DL; then " \
 					"setenv fdt_file imx6dl-sabreauto.dtb; fi; " \
-				"if test $board_name = SABRESD && test $board_rev = MX6QP; then " \
-					"setenv fdt_file imx6qp-sabresd.dtb; fi; " \
-				"if test $board_name = SABRESD && test $board_rev = MX6Q; then " \
+				"if test $board_name = aessenseboard && test $board_rev = MX6QP; then " \
+					"setenv fdt_file imx6qp-a.dtb; fi; " \
+				"if test $board_name = aessenseboard && test $board_rev = MX6Q; then " \
 					"setenv fdt_file imx6q-sabresd.dtb; fi; " \
-				"if test $board_name = SABRESD && test $board_rev = MX6DL; then " \
+				"if test $board_name = aessenseboard && test $board_rev = MX6DL; then " \
 					"setenv fdt_file imx6dl-sabresd.dtb; fi; " \
 				"if test $fdt_file = undefined; then " \
 					"echo WARNING: Could not determine dtb to use; fi; " \
