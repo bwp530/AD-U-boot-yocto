@@ -4,7 +4,7 @@ config SYS_BOARD
 	default "aessenseboard/mx6aessenseboard"
 
 config SYS_VENDOR
-	default "freecale"
+	default "freescale"
 
 config SYS_CONFIG_NAME
 	default "mx6aessenseboard"
