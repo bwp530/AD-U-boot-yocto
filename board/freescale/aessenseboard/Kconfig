@@ -1,7 +1,7 @@
 if TARGET_MX6AESSENSEBOARD
 
 config SYS_BOARD
-	default "aessenseboard/mx6aessenseboard"
+	default "aessenseboard"
 
 config SYS_VENDOR
 	default "freescale"
